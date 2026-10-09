@@ -1,0 +1,6 @@
+{% macro brand(name, tone="") -%}
+<span class="brand-signature brand-signature-{{ name }} {{ tone }}" data-brand-key="{{ name }}" {% if name == "gameclub" %}data-brand-logo{% endif %}>
+{% if name == "gameclub" %}<span class="brand-logo-slot"><img data-official-brand src="https://www.google.com/s2/favicons?domain=www.gameclub.cl&amp;sz=128" width="34" height="34" loading="lazy" referrerpolicy="no-referrer" alt=""><span class="brand-initial-fallback" aria-hidden="true">G</span></span><span class="signature-wordmark">GameClub</span>
+{% elif name == "pharmalogic" %}<img src="/images/pharmalogic-mark.svg" width="34" height="34" alt="" aria-hidden="true"><span class="signature-wordmark">PharmaLogic</span>
+{% elif name == "optiwallet" %}<img src="/images/wallet-mark.svg" width="34" height="34" alt="" aria-hidden="true"><span class="signature-wordmark">OptiWallet</span>{% endif %}</span>
+{%- endmacro %}

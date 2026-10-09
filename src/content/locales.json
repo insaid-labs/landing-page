@@ -1,0 +1,34 @@
+{
+  "es": {
+    "home": "/",
+    "title": "InsideLabs — Tu próximo salto. Lo construimos.",
+    "description": "Software a medida, IA y automatización, ciberseguridad y cloud. Un equipo de 3 socios en Chile que construye soluciones reales. Hablemos de tu proyecto.",
+    "skip": "Saltar al contenido",
+    "navLabel": "Navegación principal",
+    "mobileLabel": "Navegación móvil",
+    "services": "Servicios",
+    "projects": "Proyectos",
+    "about": "Nosotros",
+    "language": "Seleccionar idioma",
+    "talk": "Hablemos",
+    "talkLong": "Hablemos de tu proyecto",
+    "open": "Abrir menú",
+    "homeLabel": "inicio"
+  },
+  "en": {
+    "home": "/en",
+    "title": "InsideLabs — Your next big step. We build it.",
+    "description": "Custom software, AI and automation, cybersecurity, and cloud. A team of 3 co-founders in Chile building real solutions. Let’s talk about your project.",
+    "skip": "Skip to content",
+    "navLabel": "Main navigation",
+    "mobileLabel": "Mobile navigation",
+    "services": "Services",
+    "projects": "Projects",
+    "about": "About us",
+    "language": "Choose language",
+    "talk": "Let’s talk",
+    "talkLong": "Let’s talk about your project",
+    "open": "Open menu",
+    "homeLabel": "home"
+  }
+}

@@ -1,0 +1,19 @@
+---
+import Header from "../components/Header";
+import spanish from "../content/es.html?raw";
+import english from "../content/en.html?raw";
+import spanishHead from "../content/es-head.html?raw";
+import englishHead from "../content/en-head.html?raw";
+interface Props { lang: "es" | "en"; }
+const { lang } = Astro.props;
+const content = lang === "es" ? spanish : english;
+const head = lang === "es" ? spanishHead : englishHead;
+---
+<!doctype html>
+<html lang={lang}>
+  <head><Fragment set:html={head} /></head>
+  <body>
+    <Header lang={lang} />
+    <Fragment set:html={content} />
+  </body>
+</html>

@@ -1,0 +1,4 @@
+Pillow
+numpy
+Jinja2
+beautifulsoup4
